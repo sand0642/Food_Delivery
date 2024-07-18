@@ -82,9 +82,9 @@ const Add = ({ url }) => {
             required
           ></textarea>
         </div>
-        <div className="add-category-price ">
+        <div className="add-category-price">
           <div className="add-category flex-col">
-            <p>Product category</p>
+            <p>Product Category</p>
             <select onChange={onChangeHandler} name="category">
               <option value="Salad">Salad</option>
               <option value="Rolls">Rolls</option>
@@ -97,7 +97,7 @@ const Add = ({ url }) => {
             </select>
           </div>
           <div className="add-price flex-col">
-            <p>Product price</p>
+            <p>Product Price</p>
             <input
               onChange={onChangeHandler}
               value={data.price}

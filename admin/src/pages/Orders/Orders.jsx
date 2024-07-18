@@ -1,8 +1,8 @@
 import React from "react";
 import "./Orders.css";
 
-const Order = () => {
+const Orders = () => {
   return <div></div>;
 };
 
-export default Order;
+export default Orders;
